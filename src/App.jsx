@@ -15,8 +15,8 @@ import Wine from './componentes/Productos/Wine/Wine';*/
     <p>Elige alguno de nuestros productos en las siguientes categorias</p>
     <a href="http://www.mercadolibre.com" target='blank'> Mercado Libre </a>*/
 
-import React from "react" ;
-import NavBar from "./componentes/NavBar/NavBar" ;
+import React from "react";
+import { NavBar } from "./componentes/NavBar/NavBar"
 import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer" ;
 import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailContainer" ;
 import { BrowserRouter, Route, Routes} from 'react-router-dom'; 

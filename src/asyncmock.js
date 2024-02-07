@@ -5,7 +5,7 @@ const productos = [
     {id: "4", nombre: "whiskey", precio: 4000, img: "./img/JWBlL.jpg" ,idCat: "3"},
     {id: "5", nombre: "cerveza", precio: 5000, img: "./img/Volc4.jpg" ,idCat: "3"},
 ]  
-export const gesProductos = () => {
+export const getProductos = () => {
     return new Promise ( (resolve) => {
         setTimeout( ()=> {
                 resolve (productos);
